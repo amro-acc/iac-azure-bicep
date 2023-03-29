@@ -2,10 +2,10 @@ pipeline {
     agent any
     
      environment {
-	      ARM_CLIENT_ID = "0fc8cebe-89a5-41df-9f92-3d184ac2839d"
-        ARM_CLIENT_SECRET = "tBN8Q~tCDPVukXcwO-_JIzK97X55G5E0eNlWYa-v"
-        ARM_TENANT_ID = "3c09fd31-93dc-4214-815a-42ccd753f941"
-        ARM_SUBSCRIPTION_ID = "fb489ac2-f3a0-47da-9d84-977c7f38e1ce"
+	      ARM_CLIENT_ID = "0fc8cebe-89a5-41df-9f92-XXXXXX"
+        ARM_CLIENT_SECRET = "tBN8Q~tCDPVukXcwO-_XXXXXXXXXX-v"
+        ARM_TENANT_ID = "XXXXXXXXXX-93dc-4214-815a-XXXXX"
+        ARM_SUBSCRIPTION_ID = "XXXXXX-f3a0-47da-9d84-XXXXXXXXX"
 		    templateFile = "storage.bicep"
 		    resourceGroupName = "bicep-rg"
     }
